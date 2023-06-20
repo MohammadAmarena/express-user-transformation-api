@@ -1,0 +1,20 @@
+@url = http://localhost:3131
+
+### Users
+POST {{url}}/transform
+Content-Type: application/json
+
+[
+  {
+    "firstName": "Mohammad",
+    "lastName": "Amaren",
+    "age": 28,
+    "email": "mohammad@amaren.com"
+  },
+  {
+    "firstName": "Rop",
+    "lastName": "Smith",
+    "age": 35,
+    "email": "Tim@smith.com"
+  }
+]
